@@ -11,10 +11,9 @@
 
 
 get_ipython().system('pip install pyforest')
-from pyforest import *
 import datetime, pickle, copy, warnings
-from pandas import DataFrame, merge, concat
 import glob
+from pyforest import *
 plt.style.use('dark_background')
 
 
@@ -49,7 +48,7 @@ X
 
 # In[86]:
 
-
+from pandas import DataFrame, merge, concat
 plt.style.use('dark_background')
 def plot_vars(train, levels, color, leveltype):
     
